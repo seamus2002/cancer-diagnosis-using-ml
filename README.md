@@ -42,7 +42,8 @@ The models were evaluated using BinaryClassificationEvaluator for AUC and Multic
 - **F1 Score:** 0.9648241482827948
 - **Precision:** 0.9653442317916001
 - **Recall:** 0.9649122807017545
-- **ROC Curve:** ![Random Forest ROC Curve](./images/rf_roc_curve.png)
+- **ROC Curve:**
+- ![Random Forest ROC Curve](./images/rf_roc_curve.png)
 
 #### Logistic Regression:
 
@@ -50,7 +51,8 @@ The models were evaluated using BinaryClassificationEvaluator for AUC and Multic
 - **F1 Score:** 0.7939541160593793
 - **Precision:** 0.8563851489188086
 - **Recall:** 0.8070175438596492
-- **ROC Curve:** ![Logistic Regression ROC Curve](./images/lr_roc_curve.png)
+- **ROC Curve:**
+- ![Logistic Regression ROC Curve](./images/lr_roc_curve.png)
 
 ### Comparison of Algorithms
 
