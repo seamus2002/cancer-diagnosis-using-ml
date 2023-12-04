@@ -68,13 +68,8 @@ The models were evaluated using BinaryClassificationEvaluator for AUC and Multic
 - Logistic Regression is less likely to overfit the data, especially when dealing with a limited number of features.
 - Logistic Regression can be sensitive to outliers, affecting the model's performance.
 
-## Limitations
+## Limitations and Potential Improvements
 
-- The performance of the models depends on the quality of the features and the representativeness of the dataset.
-- The choice of algorithms might not be optimal for all scenarios; other algorithms could be explored based on the specific characteristics of the data.
-
-## Potential Improvements
-
-- Feature engineering could be further refined to capture additional information.
-- Hyperparameter tuning may improve the performance of the models.
-- Ensemble methods or more complex algorithms could be explored for increased predictive power.
+- The project did not extensively explore hyperparameter tuning for the selected algorithms. Fine-tuning hyperparameters, such as adjusting the number of trees in Random Forest or the regularization parameter in Logistic Regression, could further enhance model performance.
+- The project did not extensively explore the characteristics of the dataset, such as correlations between features or potential outliers. A more in-depth exploratory data analysis could provide valuable insights into the data's nuances.
+- While basic feature engineering, such as converting the target variable to numeric and assembling feature vectors, was performed, more sophisticated feature engineering techniques could be employed. Exploring interactions between features or creating new informative features may improve model accuracy.
